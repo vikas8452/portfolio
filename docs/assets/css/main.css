@@ -5068,10 +5068,11 @@ margin-left: 0px;
 
 .timeline {
   list-style: none;
+  justify-content: center;
   padding: 20px 0 20px;
   position: relative;
 }
-.timeline:before {
+/* .timeline:before {
   top: 70px;
   bottom: 170px;
   position: absolute;
@@ -5080,7 +5081,7 @@ margin-left: 0px;
   background-color: #CCCCCC;
   left: 25px;
   margin-left: -1.5px;
-}
+} */
 .timeline > li {
   margin-bottom: 20px;
   position: relative;
@@ -5102,8 +5103,9 @@ margin-left: 0px;
   clear: both;
 }
 .timeline > li > .timeline-panel {
-  width: calc( 100% - 55px );
-  float: right;
+  width: calc( 90% );
+
+  margin: auto;
   border: 1px solid #d4d4d4;
   border-radius: 22px;
   padding: 10px;

@@ -13,6 +13,9 @@ import { ExperienceComponent } from './experience/experience.component';
 import { SkillsComponent } from './skills/skills.component';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { PublicationsComponent } from '../profile/publications/publications.component';
+import { AngularParticleEsModule } from 'angular-particle-es/lib/angular-particle-es.module';
+import { ParticlesModule } from 'angular-particle';
+import { ParticleComponent } from './particle/particle.component';
 
 
 @NgModule({
@@ -22,7 +25,8 @@ import { PublicationsComponent } from '../profile/publications/publications.comp
     SnotifyModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    ParticlesModule
   ],
   declarations: [
     ProfileComponent,
@@ -35,6 +39,7 @@ import { PublicationsComponent } from '../profile/publications/publications.comp
     ExperienceComponent,
     SkillsComponent,
     PublicationsComponent,
+    ParticleComponent,
   ],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
