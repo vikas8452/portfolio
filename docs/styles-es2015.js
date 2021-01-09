@@ -11,7 +11,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */", "",{"version":3,"sources":["D:\\Angular\\PortFolio\\Personal-Portfolio-Angular/src\\styles.scss"],"names":[],"mappings":"AAAA,8EAAA","file":"styles.scss","sourcesContent":["/* You can add global styles to this file, and also import other style files */\r\n"]}]);
+exports.push([module.i, "html {\n  background-color: black;\n}", "",{"version":3,"sources":["D:\\Angular\\PortFolio\\Personal-Portfolio-Angular/src\\styles.scss","styles.scss"],"names":[],"mappings":"AAAA;EAAO,uBAAA;ACEP","file":"styles.scss","sourcesContent":["html { background-color: black; }","html {\n  background-color: black;\n}"]}]);
 // Exports
 module.exports = exports;
 
