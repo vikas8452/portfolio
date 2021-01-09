@@ -5077,7 +5077,7 @@ margin-left: 0px;
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #CCCCCC;
+  /* background-color: #CCCCCC; */
   left: 25px;
   margin-left: -1.5px;
 }
