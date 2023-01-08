@@ -18,7 +18,7 @@
 
     exports.push([module.i, "html {\n  background-color: black;\n}", "", {
       "version": 3,
-      "sources": ["D:\\Angular\\PortFolio\\Personal-Portfolio-Angular/src\\styles.scss", "styles.scss"],
+      "sources": ["/Users/vikaspatel/Personal-Projects/portfolio/src/styles.scss", "styles.scss"],
       "names": [],
       "mappings": "AAAA;EAAO,uBAAA;ACEP",
       "file": "styles.scss",
@@ -464,7 +464,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! D:\Angular\PortFolio\Personal-Portfolio-Angular\src\styles.scss */
+    /*! /Users/vikaspatel/Personal-Projects/portfolio/src/styles.scss */
     "./src/styles.scss");
     /***/
   }
