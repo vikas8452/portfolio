@@ -3193,6 +3193,11 @@ img {
   margin-top: 30px;
 }
 
+.profile-page {
+  background-image:
+  url("https://amymhaddad.s3.amazonaws.com/oriental-tiles.png");
+}
+
 .profile-page .description,
 .profile-page .category {
   text-align: center;
@@ -4065,7 +4070,7 @@ img {
   .footer .copyright {
     text-align: right;
   }
-  
+
   .navbar-nav .nav-link i.fa,
   .navbar-nav .nav-link i.now-ui-icons {
     opacity: .5;
@@ -4515,7 +4520,7 @@ img {
   .navbar-nav .nav-item:not(:last-child) {
     margin-right: 5px;
   }
-  
+
   .dropdown-menu .dropdown-item {
     color: inherit;
   }
@@ -4568,7 +4573,7 @@ img {
   .footer .copyright {
     text-align: center;
   }
-  
+
   .page-header .container h6.category-absolute {
     width: 90%;
   }
@@ -5135,14 +5140,14 @@ margin-left: 0px;
   position: absolute;
   top: 50px;
   left: 13px;
-  
+
   background-color: #666666;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
-  
+
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: left;

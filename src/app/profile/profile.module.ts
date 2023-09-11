@@ -16,6 +16,15 @@ import { PublicationsComponent } from '../profile/publications/publications.comp
 import { AngularParticleEsModule } from 'angular-particle-es/lib/angular-particle-es.module';
 import { ParticlesModule } from 'angular-particle';
 import { ParticleComponent } from './particle/particle.component';
+import { NO_ERRORS_SCHEMA,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { VideoComponent } from './video/video.component';
+import {
+  MatExpansionModule,
+} from '@angular/material/expansion';
+import {
+  MatListModule
+} from '@angular/material/list'
+// import { YouTubePlayerModule } from '@angular/youtube-player';
 
 
 @NgModule({
@@ -26,7 +35,8 @@ import { ParticleComponent } from './particle/particle.component';
     FormsModule,
     ReactiveFormsModule,
     NgxSpinnerModule,
-    ParticlesModule
+    MatExpansionModule,
+    MatListModule
   ],
   declarations: [
     ProfileComponent,
@@ -40,10 +50,15 @@ import { ParticleComponent } from './particle/particle.component';
     SkillsComponent,
     PublicationsComponent,
     ParticleComponent,
+    VideoComponent
   ],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
     SnotifyService,
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA,
+    NO_ERRORS_SCHEMA
   ]
 })
 export class ProfileModule { }

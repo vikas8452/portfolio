@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./publications.component.scss']
 })
 export class PublicationsComponent implements OnInit {
-
-  constructor() { }
+  videoId : any
+  constructor() {
+    this.videoId = "NeXbmEnpSz0"
+   }
 
   ngOnInit(): void {
   }
